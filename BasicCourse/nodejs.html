@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>NodeJs教程 - Simiki</title>
+
+    <meta name="keywords" content="simiki, wiki, python, simple"/>
+    <meta name="description" content="Simiki is a simple static site generator for wiki."/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="alternate" type="application/atom+xml" href="atom.xml" title="Atom feed">
+
+    <link href="/static/css/style.css" rel="Stylesheet" >
+  </head>
+
+  <body>
+    <div class="container">
+      
+<div id="header">
+  <div class="post-nav"><a href="/">Home</a>&nbsp;&#187;&nbsp;<a href="/#BasicCourse">BasicCourse</a>&nbsp;&#187;&nbsp;NodeJs教程
+    <span class="updated">Updated&nbsp;
+      2020-10-22 20:10:01
+    </span></div>
+</div>
+<div class="clearfix"></div>
+
+<div class="page_title">NodeJs教程</div>
+
+  <div class="toc"><span class="toctitle">Table of Contents</span><ul>
+<li><a href="#nodejs">NodeJs</a><ul>
+<li><a href="#_1">准备安装</a></li>
+<li><a href="#_2">准备更新</a></li>
+<li><a href="#_3">源码安装</a></li>
+<li><a href="#_4">编译安装</a></li>
+<li><a href="#_5">验证</a></li>
+<li><a href="#license">License</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<h1 id="nodejs">NodeJs</h1>
+<p><a href="https://github.com/nodejs/nodejs.org/actions?workflow=Tests"><img alt="Build Status" src="https://github.com/nodejs/nodejs.org/workflows/Tests/badge.svg" /></a>
+<a href="https://david-dm.org/nodejs/nodejs.org"><img alt="Dependency Status" src="https://img.shields.io/david/nodejs/nodejs.org.svg" /></a>
+<a href="LICENSE"><img alt="MIT Licensed" src="https://img.shields.io/badge/license-MIT-blue.svg" /></a>
+<a href="https://crowdin.com/project/nodejs-website"><img alt="Crowdin" src="https://badges.crowdin.net/nodejs-website/localized.svg" /></a></p>
+<h3 id="_1">准备安装</h3>
+<div class="hlcode"><pre><span class="n">yum</span> <span class="o">-</span><span class="n">y</span> <span class="n">install</span> <span class="n">gcc</span> <span class="n">make</span> <span class="n">gcc</span><span class="o">-</span><span class="n">c</span><span class="o">++</span> <span class="n">openssl</span><span class="o">-</span><span class="n">devel</span> <span class="n">wget</span>
+</pre></div>
+
+
+<h3 id="_2">准备更新</h3>
+<div class="hlcode"><pre><span class="n">yum</span> <span class="o">-</span><span class="n">y</span> <span class="n">update</span> <span class="n">gcc</span> <span class="n">make</span> <span class="n">gcc</span><span class="o">-</span><span class="n">c</span><span class="o">++</span> <span class="n">openssl</span><span class="o">-</span><span class="n">devel</span> <span class="n">wget</span>
+</pre></div>
+
+
+<h3 id="_3">源码安装</h3>
+<div class="hlcode"><pre><span class="n">wget</span> <span class="n">http</span><span class="o">:</span><span class="c1">//nodejs.org/dist/v0.10.26/node-v0.10.26.tar.gz</span>
+<span class="n">tar</span> <span class="o">-</span><span class="n">zvxf</span> <span class="n">node</span><span class="o">-</span><span class="n">v0</span><span class="mf">.10.26</span><span class="p">.</span><span class="n">tar</span><span class="p">.</span><span class="n">gz</span>
+</pre></div>
+
+
+<h3 id="_4">编译安装</h3>
+<div class="hlcode"><pre><span class="n">make</span> <span class="o">&amp;&amp;</span> <span class="n">make</span> <span class="n">install</span>
+</pre></div>
+
+
+<h3 id="_5">验证</h3>
+<div class="hlcode"><pre><span class="n">node</span> <span class="o">-</span><span class="n">v</span>
+<span class="n">npm</span> <span class="o">-</span><span class="n">v</span>
+</pre></div>
+
+
+<h2 id="license">License</h2>
+<p>The MIT License (MIT)</p>
+<p>Copyright (c) 2019 Dragon_SZ</p>
+    </div>
+    <footer>
+      <p>Copyright © 2020 Dragon_SZ. Powered by <a href="http://simiki.org/" target="_blank">Simiki</a>.  Site Generated 2020-10-28 14:49:54 </p>
+    </footer>
+  </body>
+</html>
